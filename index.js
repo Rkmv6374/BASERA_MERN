@@ -60,7 +60,7 @@ app.use((err, req, res, next) => {
 
 
 //listen request 
-app.listen(8000||process.env.port,(err)=>{
+app.listen(process.env.port||8000,(err)=>{
 connect();
 if(err) console.log("Disconected with backend!");
 else  console.log("connected with backend!");
