@@ -1,0 +1,238 @@
+
+.headersection
+{
+    
+    background-color: rgb(19, 55, 123);
+    color: white;
+     display:flex;
+     justify-content: center;
+    /* flex-direction: column; */
+    /* justify-cont; */
+    
+    
+    
+}
+
+.headerList
+{
+    display:flex;
+    
+     /* margin-bottom:120px;  */
+}
+
+.headerListItem
+{
+    margin-right: 20px;
+    margin-top:20px;
+    padding:4px;
+}
+
+.active
+{
+    border:1px solid white;
+    border-radius: 7px;
+}
+
+.desc
+{
+    /* margin:2% 7%;
+    width:100%;
+    max-width: 1024px; */
+    margin:4% 0%;
+    position: relative;
+    padding-bottom: 40px;
+}
+
+.headcont
+{   width:80%;
+    font-size: 13px;
+    padding:5px 0px;
+}
+.signin
+{
+    cursor: pointer;
+    padding:4px;
+    background-color: rgb(7, 94, 165);
+    font-weight: 400;
+    color: white;
+    border: 1px solid white;
+    margin-top: 12px;
+    margin-bottom:13px;
+}
+
+.headdesc
+{
+    font-size: 30px;
+    font-weight:700;
+}
+
+.headerSearch
+{   
+    display:flex;
+    justify-content:space-around;
+    border:3px solid rgb(180, 145, 85);
+    height:30px;
+    /* border-radius: 5px; */
+    background-color:white;
+    color:rgb(101, 95, 95);
+    align-items: center;
+    position:absolute;
+    min-width: 100%;
+    max-width: 1024px;
+    bottom:-53px;
+    font-size:13px;
+    z-index: 2;
+}
+/* 
+.searchbar
+{   
+    position:relative;
+}  */
+
+.headerSearchItem
+{
+    /* padding:4px; */
+    font-weight: 100;
+   
+}
+
+
+.header
+{
+    margin:0% 7%;
+    width:100%;
+    max-width: 1024px;
+}
+
+
+.searchmar
+{
+    padding-left: 4px;
+    cursor: pointer;
+}
+
+.headerInput
+{
+    
+    border: 1px solid white;
+}
+
+.date{
+    position:absolute;
+    top:32px;
+    right:24%;    
+}
+
+.datecontainer
+{
+    position:relative;
+}
+
+.headbtn
+{
+    background-color: rgb(19, 55, 123);
+    color: white;
+    border-radius: 4px;
+}
+
+
+.adult
+{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    bottom:-90%;
+    /* border-radius:4px; */
+    width:170px;
+    margin-top:7px;
+    height:24px;
+    background-color: rgba(231, 228, 221, 0.847);
+    box-shadow: 0px 0px 10px -2px rgb(72, 76, 79);
+    
+}
+
+.additionbtn
+{
+    position:relative;
+}
+
+.children
+{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    bottom:-174%;
+    /* background-color: lightgrey; */
+    width:170px;
+    margin-top:7px;
+    height:24px;
+    background-color: rgba(232, 229, 223, 0.847);
+   box-shadow: 0px 0px 10px -3px rgb(72, 76, 79);
+    
+}
+
+.room
+{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    bottom:-250%;
+    /* background-color: lightgrey; */
+    width:170px;
+    height:24px;
+    /* border-radius: 4px; */
+    box-shadow: 0px 0px 10px -2px rgb(72, 76, 79);
+    background-color: rgba(230, 226, 220, 0.847);
+}
+
+
+
+.name
+{
+    padding:0 12px;
+}
+
+.plus
+{
+     position:absolute;
+     right:40px;
+     bottom:-1px;
+}
+
+.minus
+{
+    position:absolute;
+    right:15px;
+    bottom:-1px;
+}
+
+.adultcnt
+{
+    position: absolute;
+    right:90px;
+}
+
+.peoplebtn
+{  position:relative;
+    height:19px;
+    width:19px;
+    color:rgb(112, 139, 160);
+    border: 1px solid rgba(64, 60, 132, 0.587);
+    border-radius:4px;
+    /* background-color: lightgray; */
+    cursor: pointer;
+    /* position:flex; */
+    /* align-items: center; */
+    z-index: 3;
+    top:-2px;
+    
+}
+.peoplebtn:disabled
+{
+    cursor: not-allowed;
+}
+
+.headlistpad
+{
+    margin-bottom: 15px;
+}

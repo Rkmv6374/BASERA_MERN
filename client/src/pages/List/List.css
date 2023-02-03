@@ -1,0 +1,243 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.wholefeatures
+{
+   display:flex;
+   justify-content: center;
+}
+.featurecontainer
+{
+  width:100%;
+  max-width: 1024px;
+  display: flex;
+  margin:4% 7%;
+  justify-content: space-between;
+}
+.featuresearchlist
+{
+    margin-right: 2%;
+    /* border: 1px solid blue; */
+    padding:10px 10px;
+    padding-top: 20px;
+    border-radius: 10px;
+    background-color: rgb(236, 179, 23);
+    opacity:0.9;
+    color:rgb(51, 48, 48);
+    height:400px;
+    font-size: 13px;
+    min-width: 12rem;
+    position:sticky;
+    top:15px;
+}
+.featuresearchbaritem
+{
+    /* flex-grow: 2; */
+}
+
+.featurecontentitem
+{
+    flex-grow: 2;
+    /* border:1px solid red; */
+}
+.minprice
+{   display:flex;
+    position:relative;
+    padding:7px 0px;
+    padding-left:7px;
+    font-size: 13px;
+    font-weight: 400;
+    opacity: 1;
+}
+.dateformat
+{
+    display: flex;
+    font-size: 14px;
+    align-items: center;
+    justify-content: center;
+}
+.destinationinput
+{
+    width:35px;
+    position:absolute;
+    right:4px;
+    border:0;
+}
+.destiname
+{
+  font-size: 14px;
+  font-weight: 500;
+}
+ 
+.featuredestination
+{
+    margin:7% 0%;
+}
+.featurecheckin
+{
+    margin:5% 0%;
+}
+.featureoption
+{
+    margin-top:10%;
+    font-size: 14px;
+    font-weight: 500;
+    /* opacity: 0.9; */
+}
+
+.destinationinputbig
+{  margin-top:5px;
+    padding:2px 1px 1px 1px;
+    border: 0;
+   background-color: white;
+   width:100%;
+   height:22px;
+   /* font-weight: 40; */
+   opacity:0.8;
+   border-radius: 4px;
+   /* font-size:14px; */
+}
+
+.searchlist
+{
+   display:flex;
+   justify-content: center;
+}
+
+.searchlistbtn
+{
+    padding:7px 12px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color:rgb(71, 92, 170);
+    border:0;
+    color: aliceblue;
+    cursor: pointer;
+    width:100%;
+}
+
+.check 
+{
+    padding:2px 1px;
+    margin-bottom: 3px;
+}
+
+.featuresearchbaritem{
+    font-weight: 600;
+    font-size: 20px;
+    color: black;
+    opacity:0.9;
+}
+
+
+.searchItem {
+    border: 1px solid lightgray;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .siImg {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .siDesc {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 2;
+  }
+  
+  .siTitle {
+    font-size: 20px;
+    color: #0071c2;
+  }
+  
+  .siDistance {
+    font-size: 12px;
+  }
+  
+  .siTaxiOp {
+    font-size: 12px;
+    background-color: #008009;
+    color: white;
+    width: max-content;
+    padding: 3px;
+    border-radius: 5px;
+  }
+  
+  .siSubtitle{
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
+  .siFeatures{
+    font-size: 12px;
+  }
+  
+  .siCancelOp{
+    font-size: 12px;
+    color: #008009;
+    font-weight: bold;
+  }
+  
+  .siCancelOpSubtitle{
+    font-size: 12px;
+    color: #008009;
+  }
+  
+  .siDetails {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+  }
+  
+  .siRating{
+    display: flex;
+    justify-content: space-between
+  }
+  
+  .siRating>span{
+    font-weight: 500;
+  }
+  .siRating>button{
+   background-color: #003580;
+   color: white;
+   padding: 5px;
+   font-weight: bold;
+   border: none;
+  }
+  
+  .siDetailTexts{
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .siPrice{
+    font-size: 24px;
+  }
+  
+  .siTaxOp{
+    font-size: 12px;
+    color: gray;
+  }
+  
+  .siCheckButton{
+    background-color: #0071c2;
+    color: white;
+    font-weight: bold;
+    padding: 10px 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }

@@ -1,0 +1,91 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.wholefeatures
+{
+   display:flex;
+   justify-content: center;
+}
+.featurecontainer
+{
+  width:100%;
+  max-width: 1024px;
+  display: flex;
+  margin:4% 7%;
+  justify-content: space-between;
+}
+.featuresearchlist
+{
+    margin-right: 2%;
+    /* border: 1px solid blue; */
+    padding:10px 30px;
+    padding-top: 20px;
+    border-radius: 10px;
+    background-color: rgb(236, 179, 23);
+}
+.featuresearchbaritem
+{
+    flex-grow: 2;
+}
+
+.featurecontentitem
+{
+    flex-grow: 4;
+    border:1px solid red;
+}
+.minprice
+{
+    position:relative;
+    padding:7px 0px;
+    padding-left:7px;
+    font-size: 14px;
+
+}
+
+.destinationinput
+{
+    width:35px;
+    position:absolute;
+    right:4px;
+    border:0;
+}
+ 
+.featuredestination
+{
+    margin:7% 0%;
+}
+.featurecheckin
+{
+    margin:5% 0%;
+}
+.featureoption
+{
+    margin-top:10%;
+}
+
+.destinationinputbig
+{  margin-top:5px;
+    padding:1px;
+    border: 0;
+
+}
+
+.searchlist
+{
+   display:flex;
+   justify-content: center;
+}
+
+.searchlistbtn
+{
+    padding:7px 12px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color:rgb(71, 92, 170);
+    border:0;
+    color: aliceblue;
+    cursor: pointer;
+    width:100%;
+}

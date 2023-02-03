@@ -1,0 +1,111 @@
+
+
+
+.wholemail
+{
+    display:flex;
+     justify-content: center; 
+    background-color: rgba(19, 50, 123);
+    color: aliceblue;
+}
+
+
+.maillink
+{
+    color: aliceblue;
+}
+
+.mailpart1
+{
+    margin:3% 7%;
+    width:100%;
+    max-width:1024px;
+}
+
+.linkcontainer
+{
+    display: flex;
+    justify-content:space-evenly;
+    margin-top:14px;
+}
+
+.searchmail
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.mailtext
+{
+ padding-bottom: 5px;
+ font-weight: 700;
+ font-size:14px;
+ opacity: 0.8;
+}
+
+
+.mailtext2
+{
+ padding-bottom: 20px;
+ font-weight: 500;
+ font-size:12px;
+ opacity: 0.7;
+}
+
+.inputreg
+{
+    width:250px;
+    height:25px;
+    border-color: white;
+
+}
+
+.subsbttn
+{
+    height:32px;
+    color:white;
+    font-weight: 600;
+    box-shadow: 5px 4px -8px -10px rgba(19, 50, 123);
+   background-color: rgb(36, 128, 174);
+   border: 0;
+}
+
+.sendlink
+{
+    padding: 15px;
+    opacity:0.8;
+    font-size: 12px;
+}
+
+.checkbox
+{
+    width:12px;
+    height:12px;
+    position:relative;
+    top:2px;
+    right:1.5px;
+}
+
+
+.linkitem
+{
+    font-weight:100;
+    opacity:0.8;
+     font-size: 12px;
+}
+
+.propertybtn
+{
+    font-size: 14px;
+    padding:5px 7px;
+    color: antiquewhite;
+    background-color:rgb(36, 128, 174);
+    border:0;
+}
+.mailpart2
+{   margin-top:30px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,46 @@
+.nav{
+    background-color: rgb(19, 55, 123);
+    height:50px;
+    display: flex;
+    justify-content: center;
+}
+.navhead
+{   display: flex;
+    justify-content: space-between;
+    width:100%;
+    max-width: 1024px;
+    align-items: center;
+    margin: 0 7%;
+}
+
+.booking
+{
+    /* margin:7% 14%; */
+
+}
+
+.include
+{
+    /* margin:7% 14%; */
+
+    color:white;
+    font-weight:300px;
+    font-size: 20px;
+    
+}
+.register
+{
+     margin:4px;
+     border-radius: 5%;
+     border:1px solid white;
+     padding:3px;
+     color: rgb(19, 55, 123);
+}
+
+.bookingname
+{
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+}
+
