@@ -41,6 +41,7 @@ export const authreg= async(req,res,next)=>
   // }
   
   try{
+     
      const pas = req.body.password; 
      const salt = await bcrypt.genSalt(10);
      const hashpwd = await bcrypt.hash(pas,salt);
@@ -99,7 +100,7 @@ export const login = async(req,res,next)=>
   // creating token
   // var token;
 
-  const token = await jwt.sign({_id:user1._id,isAdmin:user1.isAdmin},process.env.key,{});
+  const token = await jwt.sign({_id:user1.username,isAdmin:user1.isAdmin},process.env.key);
   return res.cookie("access_token",token,{httpOnly : true}).status(200).json({status:"success",message:"successfully stored in cookie"});
 
  }
